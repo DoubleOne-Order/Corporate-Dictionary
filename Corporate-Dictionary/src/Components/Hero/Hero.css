@@ -1,0 +1,46 @@
+.hero {
+  max-width: 80%;
+  margin: 0 auto;
+  z-index: 999;
+}
+.hero-content {
+  width: 100%;
+  min-height: 90vh;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.headline {
+  width: 600px;
+}
+.headline h1 {
+  font-size: 80px;
+  line-height: 75px;
+  margin-bottom: 30px;
+  color: #004443;
+}
+.headline h3 {
+  font-size: 40px;
+  margin-bottom: 30px;
+  color: #01615f;
+}
+.headline p {
+  font-size: 20px;
+  margin-bottom: 50px;
+  color: #0f0e0e;
+}
+.headline button {
+  padding: 16px 32px;
+  border-radius: 8px;
+  font-size: 18px;
+  border: 1px solid #004443;
+  color: #004443;
+  transition: 0.5s ease;
+  cursor: pointer;
+  background-color: #fff;
+}
+.headline button:hover {
+  background-color: #d4aa3a;
+  color: #fff;
+  border-color: #d4aa3a;
+}
