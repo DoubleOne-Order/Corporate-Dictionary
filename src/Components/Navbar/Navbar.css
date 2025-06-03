@@ -3,13 +3,17 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 20px 40px;
-  backdrop-filter: blur(10px);
+  padding: 12px 48px;
+  background-color: var(--primary-color);
+  position: sticky;
+  top: 0;
+  left: 0;
+  z-index: 999;
 }
 .logo {
   font-size: 28px;
   font-weight: 600;
-  color: #004c4c;
+  color: #ffffff;
   cursor: pointer;
 }
 .nav-menu {
@@ -18,18 +22,28 @@
   gap: 60px;
 }
 .nav-menu li {
-  font-size: 20px;
+  font-size: 14px;
+  color: #ffffff;
+  transition: 0.2s ease;
+}
+.nav-menu li:hover {
+  color: var(--secondary-color);
 }
 .contact-us {
-  background-color: #004443;
+  background-color: var(--secondary-color);
   padding: 10px 20px;
   border-radius: 5px;
-  border: 1px solid #004443;
+  border: 1px solid var(--secondary-color);
   color: #fff;
   transition: 0.2s ease;
 }
 .contact-us:hover {
   background-color: #fff;
-  color: #004443;
-  border: 1px solid #004443;
+  color: var(--secondary-color);
+  border: 1px solid var(--secondary-color);
+}
+#bar {
+  color: #fff;
+  font-size: 30px;
+  display: none;
 }

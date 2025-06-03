@@ -11,6 +11,7 @@ const Navbar = () => {
                 <li>Find Jobs</li>
                 <li>Services</li>
                 <li className='contact-us'>Contact Us</li>
+                <i id="bar" className='fas fa-bars'></i>
             </ul>
 
         </div>
