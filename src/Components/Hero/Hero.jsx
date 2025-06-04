@@ -7,15 +7,16 @@ const Hero = () => {
         <div className='hero' >
             <div className="hero-content">
                 <div className="headline">
-                    <h1>Empowering Africans for Global Success</h1>
+                    <h1>Empowering Africans for <span>Global</span> Success</h1>
                     <p>Strategic support for individuals and businesses navigating change, growth, and opportunity.
                         Rooted in Kenya, built for global impact.</p>
-                    <button>Start you Journey</button>
-                    <button>Book a Free Career Call</button>
+                    <div className='buttons'>
+                        <button>Start you Journey</button>
+                        <button>Book a Free Career Call</button>
+                    </div>
+
                 </div>
-                <div className="hero-image">
-                    <img src={hero} alt="" />
-                </div>
+                <img className="hero-image" src={hero} alt="" />
             </div>
         </div >
     )

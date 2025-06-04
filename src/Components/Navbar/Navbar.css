@@ -5,9 +5,6 @@
   align-items: center;
   padding: 12px 48px;
   background-color: var(--primary-color);
-  position: sticky;
-  top: 0;
-  left: 0;
   z-index: 999;
 }
 .logo {
@@ -15,6 +12,7 @@
   font-weight: 600;
   color: #ffffff;
   cursor: pointer;
+  flex-shrink: 0;
 }
 .nav-menu {
   display: flex;
@@ -25,6 +23,7 @@
   font-size: 14px;
   color: #ffffff;
   transition: 0.2s ease;
+  flex-shrink: 0;
 }
 .nav-menu li:hover {
   color: var(--secondary-color);
@@ -36,14 +35,37 @@
   border: 1px solid var(--secondary-color);
   color: #fff;
   transition: 0.2s ease;
+  flex-shrink: 0;
 }
 .contact-us:hover {
   background-color: #fff;
   color: var(--secondary-color);
   border: 1px solid var(--secondary-color);
 }
-#bar {
+.nav #bar {
   color: #fff;
   font-size: 30px;
   display: none;
+  cursor: pointer;
+  z-index: 999;
+}
+.nav-menu.menu {
+  position: absolute;
+  right: -100%;
+  top: 0;
+  width: 300px;
+  height: 100vh;
+  padding-top: 90px;
+  background-color: var(--primary-color);
+  display: flex;
+  flex-direction: column;
+}
+
+@media (max-width: 990px) {
+  .nav-menu {
+    display: none;
+  }
+  .nav #bar {
+    display: block;
+  }
 }

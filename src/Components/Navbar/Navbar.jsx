@@ -11,8 +11,10 @@ const Navbar = () => {
                 <li>Find Jobs</li>
                 <li>Services</li>
                 <li className='contact-us'>Contact Us</li>
-                <i id="bar" className='fas fa-bars'></i>
             </ul>
+            <i onClick={(e) => e.target.className.includes('bars')
+                ? e.target.className = "fas fa-xmark"
+                : e.target.className = "fas fa-bars"} id="bar" className='fas fa-bars'></i>
 
         </div>
     )
