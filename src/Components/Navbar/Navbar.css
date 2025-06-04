@@ -31,7 +31,7 @@
 .contact-us {
   background-color: var(--secondary-color);
   padding: 10px 20px;
-  border-radius: 5px;
+  border-radius: 50px;
   border: 1px solid var(--secondary-color);
   color: #fff;
   transition: 0.2s ease;
@@ -44,7 +44,7 @@
 }
 .nav #bar {
   color: #fff;
-  font-size: 30px;
+  font-size: 20px;
   display: none;
   cursor: pointer;
   z-index: 999;
@@ -62,6 +62,9 @@
 }
 
 @media (max-width: 990px) {
+  .nav {
+    padding: 15px;
+  }
   .nav-menu {
     display: none;
   }
