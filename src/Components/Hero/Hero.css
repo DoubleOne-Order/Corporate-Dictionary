@@ -70,7 +70,8 @@
     padding: 5px 10px;
   }
   .hero-image {
-    width: 330px;
+    max-width: 330px;
+    height: auto;
   }
   .buttons button {
     font-size: 12px;
@@ -78,11 +79,11 @@
   }
 }
 
-@media (max-width: 750px) {
+@media (max-width: 650px) {
   .hero-content {
-    flex-direction: column;
+    flex-direction: column-reverse;
     align-items: center;
-    justify-content: ;
+    gap: 40px;
   }
   .headline {
     justify-content: center;
@@ -93,5 +94,12 @@
   .headline h1 {
     text-align: center;
     font-size: 32px;
+    margin-top: 30px;
+  }
+  .buttons {
+    flex-direction: column;
+  }
+  .buttons button {
+    min-width: 180px;
   }
 }
