@@ -1,6 +1,6 @@
 import React from 'react'
 import './Hero.css'
-import hero from '../../assets/hero.png'
+import hero from '../../assets/hero.jpg'
 
 const Hero = () => {
     return (
@@ -16,7 +16,18 @@ const Hero = () => {
                     </div>
 
                 </div>
-                <img className="hero-image" src={hero} alt="" />
+                <div className='image'>
+                    <img className="hero-image" src={hero} alt="" />
+                    <div className='float-right'>
+                        <p>💻 Remote Ready</p>
+                        <p>Global opportunities unlocked</p>
+                    </div>
+                    <div className='float-left'>
+                        <p>🚀 Accelerated Program</p>
+                        <p>Next-gen career learning</p>
+                    </div>
+                </div>
+
             </div>
         </div >
     )

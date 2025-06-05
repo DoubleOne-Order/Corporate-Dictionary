@@ -48,6 +48,7 @@
 }
 .service-item:hover {
   box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  transform: scale(1.05);
 }
 .service-item img {
   width: 100%;
@@ -74,7 +75,6 @@
   padding: 4px 12px;
   margin-left: 15px;
   font-size: 14px;
-  font-weight: bold;
   color: var(--secondary-color);
   margin-bottom: 20px;
   border: 1px solid var(--secondary-color);

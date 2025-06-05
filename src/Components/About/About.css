@@ -1,0 +1,70 @@
+.about-section {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 70px 20px;
+}
+.about-container {
+  max-width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 30px;
+}
+.about-container h2 {
+  font-size: 80px;
+  text-align: center;
+  color: var(--secondary-color);
+}
+.about-container h3 {
+  font-size: 72px;
+  text-align: center;
+  color: #3362c9;
+}
+.about-container h3 span,
+.about-container h2 span {
+  color: gold;
+}
+.about-container .statement,
+.about-container .state-point {
+  text-align: center;
+}
+.mission-container {
+  max-width: 100%;
+}
+.mission {
+  background-color: var(--primary-color);
+  padding: 30px;
+  text-align: center;
+  margin-top: 50px;
+  margin-bottom: 50px;
+  border-radius: 20px;
+  color: #fff;
+}
+.mission h2 {
+  font-size: 60px;
+}
+.mission p {
+  font-size: 20px;
+  margin-bottom: 20px;
+}
+.mission-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 40px;
+  margin-top: 30px;
+}
+.mission-grid div {
+  height: 200px;
+  padding: 20px;
+  border-radius: 10px;
+  background-color: #f7f7f7;
+}
+.mission-grid div h3 {
+  font-size: 24px;
+  color: var(--secondary-color);
+  margin-bottom: 10px;
+}
+.mission-grid div p {
+  font-size: 16px;
+  color: grey;
+}
