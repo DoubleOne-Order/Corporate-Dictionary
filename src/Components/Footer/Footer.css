@@ -23,6 +23,9 @@
   align-items: start;
   gap: 20px;
 }
+.footer-content-left p {
+  line-height: 1.5;
+}
 .footer-content-left ul,
 .footer-content-center ul,
 .footer-content-right ul {
@@ -39,4 +42,13 @@
   margin: 20px 0;
   border: none;
   background-color: grey;
+}
+
+@media (max-width: 800px) {
+  .footer-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 40px;
+  }
 }

@@ -11,12 +11,12 @@
   gap: 30px;
 }
 .about-container h2 {
-  font-size: 80px;
+  font-size: clamp(3rem, 1rem + 5.3333vw, 5rem);
   text-align: center;
   color: var(--secondary-color);
 }
 .about-container h3 {
-  font-size: 72px;
+  font-size: clamp(2.3rem, -1rem + 8vw, 5rem);
   text-align: center;
   color: #3362c9;
 }
@@ -41,7 +41,8 @@
   color: #fff;
 }
 .mission h2 {
-  font-size: 60px;
+  font-size: clamp(2.5rem, 0.25rem + 4.6667vw, 3.75rem);
+  margin-bottom: 20px;
 }
 .mission p {
   font-size: 20px;

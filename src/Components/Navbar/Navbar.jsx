@@ -10,11 +10,11 @@ const Navbar = () => {
         <div className='nav'>
             <img src={logo} alt="" className='logo' />
             <ul className={`nav-menu ${isMenuOpen ? "active" : ""}`}>
-                <li>Home</li>
-                <li>About</li>
-                <li>Find Jobs</li>
-                <li>Services</li>
-                <li className='contact-us'>Contact Us</li>
+                <li><a href="#hero">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#findjobs">FindJobs</a></li>
+                <li><a href="#services">Services</a></li>
+                <li className='contact-us'><a href="#contact">Contact Us</a></li>
             </ul>
             <i
                 onClick={() => setIsMenuOpen(!isMenuOpen)}

@@ -4,11 +4,11 @@ import logo from '../../assets/logo.svg'
 
 const Footer = () => {
     return (
-        <div className='footer'>
+        <div className='footer' id='footer'>
             <div className="footer-content">
                 <div className="footer-content-left">
                     <img src={logo} alt="" className='logo' />
-                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Totam deserunt repellendus facere iure omnis unde laboriosam cum, quod quaerat cumque obcaecati harum velit maxime beatae pariatur ipsum. Quas repellendus autem maiores officiis, nihil ullam dicta architecto sequi, nesciunt ea dignissimos!.</p>
+                    <p>Strategic support for individuals and businesses navigating change, growth, and opportunity. Rooted in Kenya, built for global impact.</p>
                 </div>
                 <div className="footer-content-center">
                     <h2>LINKS</h2>

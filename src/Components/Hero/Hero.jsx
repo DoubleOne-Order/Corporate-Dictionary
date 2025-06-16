@@ -4,7 +4,7 @@ import hero from '../../assets/hero.jpg'
 
 const Hero = () => {
     return (
-        <div className='hero' >
+        <div className='hero' id='hero' >
             <div className="hero-content">
                 <div className="headline">
                     <h1>Empowering Africans for <span>Global</span> Success</h1>
@@ -17,7 +17,7 @@ const Hero = () => {
 
                 </div>
                 <div className='image'>
-                    <img className="hero-image" src={hero} alt="" />
+                    <img className="hero-image" src={hero} alt="" loading='lazy' />
                     <div className='float-right'>
                         <p>💻 Remote Ready</p>
                         <p>Global opportunities unlocked</p>

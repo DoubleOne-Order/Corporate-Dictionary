@@ -12,13 +12,13 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
-  gap: 50px;
-  padding: 0 30px;
+  gap: 40px;
+  padding: 0 10px;
 }
 .headline {
   display: flex;
   flex-direction: column;
-  gap: 35px;
+  gap: 20px;
   animation: fadeIn 0.8s;
 }
 .headline h1 {
@@ -64,8 +64,8 @@
   position: relative;
 }
 .hero-image {
-  width: max(40vw, 600px);
-  height: max(40vh, 600px);
+  width: max(35vw, 600px);
+  height: max(60vh, 500px);
   border-radius: 20px;
   position: relative;
   object-fit: cover;
@@ -135,7 +135,7 @@
     height: auto;
   }
   .buttons button {
-    font-size: 12px;
+    font-size: 16px;
     padding: 12px 16px;
   }
 }

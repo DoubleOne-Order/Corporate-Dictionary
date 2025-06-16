@@ -3,7 +3,7 @@ import './About.css'
 
 const About = () => {
     return (
-        <div className='about-section'>
+        <div className='about-section' id='about'>
             <div className="about-container">
                 <h2>What We <span>Do</span></h2>
                 <h3>Your Success is <br /> Our <span>Mission</span></h3>
@@ -19,7 +19,6 @@ const About = () => {
                 </div>
                 <div className='mission-grid'>
                     <div>
-                        <img src="" alt="" />
                         <h3>Professional</h3>
                         <p>Clear, structured, and confident approach to your career growth</p>
                     </div>
@@ -39,7 +38,6 @@ const About = () => {
                         <p>Fresh, youthful, and rooted in Kenya's energy but globally sharp</p>
                     </div>
                     <div>
-                        <img src="" alt="" />
                         <h3>Professional</h3>
                         <p>Clear, structured, and confident approach to your career growth</p>
                     </div>
@@ -49,4 +47,4 @@ const About = () => {
     )
 }
 
-export default About
+export default React.memo(About)

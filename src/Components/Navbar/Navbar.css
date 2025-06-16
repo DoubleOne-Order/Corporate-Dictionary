@@ -6,7 +6,8 @@
   padding: 12px 48px;
   background-color: var(--primary-color);
   z-index: 999;
-  position: relative;
+  position: sticky;
+  top: 0;
 }
 .logo {
   max-width: 80px;
@@ -18,13 +19,13 @@
   gap: 60px;
   transition: 0.3s ease;
 }
-.nav-menu li {
+.nav-menu a {
   font-size: 14px;
   color: #ffffff;
   transition: 0.2s ease;
   flex-shrink: 0;
 }
-.nav-menu li:hover {
+.nav-menu a:hover {
   color: var(--secondary-color);
 }
 .contact-us {
@@ -74,8 +75,7 @@
     padding-top: 90px;
     background-color: var(--primary-color);
     flex-direction: column;
-    display: none; /* Override display: none */
-    transform: translateX(0);
+    display: none;
   }
 
   .nav-menu.active {
